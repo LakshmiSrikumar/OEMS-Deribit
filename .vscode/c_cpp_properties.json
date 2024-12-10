@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/src/api",
+                "${workspaceFolder}/src/config",
+                "${workspaceFolder}/src/models",
+                "${workspaceFolder}/src/websocket",
+                "C:/curl-8.11.0_4-win64-mingw/curl-8.11.0_4-win64-mingw/include", 
+                "D:/D drive/Downloads/boost_1_86_0/boost_1_86_0" 
+            ],
+            "defines": [],
+            "compilerPath": "C:/MinGW/bin/g++.exe", 
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

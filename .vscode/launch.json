@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug DeribitOrderManagement",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/DeribitOrderManagement.exe", // Adjust the path
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "text": "-enable-pretty-printing",
+                    "description": "Enable pretty printing for gdb",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build",
+            "miDebuggerPath": "C:/MinGW/bin/gdb.exe" // Adjust for your debugger path
+        }
+    ]
+}
